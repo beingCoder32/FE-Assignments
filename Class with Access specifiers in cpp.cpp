@@ -11,11 +11,7 @@ public:
 	int d, e;
 	void setdata(int a, int b, int c);
 	void getdata() {
-		cout << "The strength of DIV A is " << a <<"."<< endl;
-		cout << "\nThe strength of DIV B is " << b << "."<<endl;
-		cout << "\nThe strength of DIV C is " << c << "."<<endl;
-		cout << "\nThe strength of DIV D is " << d << "."<<endl;
-		cout << "\nThe strength of DIV E is " << e << "."<<endl;
+		cout << "The strength of DIV A is " << a <<"."<< endl<<"The strength of DIV B is " << b << "."<<endl<< "The strength of DIV C is " << c << "."<<endl<< "\nThe strength of DIV D is " << d << "."<<endl<<"The strength of DIV E is " << e << "."<<endl;
 	}
 };
 
